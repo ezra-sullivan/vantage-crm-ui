@@ -74,15 +74,15 @@ vantage-crm-ui/
 └── vite.config.ts       # Vite 配置
 ```
 
-````
-
 ## 开发指南
+
 ### 代码规范
+
 项目使用 ESLint 和 Prettier 进行代码规范检查和格式化，请确保在提交代码前运行以下命令：
 
 ```bash
 npm run lint
-````
+```
 
 ### 新增页面
 
