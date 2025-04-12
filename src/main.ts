@@ -1,5 +1,3 @@
-import './assets/main.css'
-
 import { createApp } from 'vue'
 import { createPinia } from 'pinia'
 import ElementPlus from 'element-plus'
@@ -13,8 +11,8 @@ const app = createApp(App)
 
 app.use(createPinia())
 app.use(router)
-app.use(ElementPlus,{
-  locale: zhCn
+app.use(ElementPlus, {
+  locale: zhCn,
 })
 
 app.mount('#app')
