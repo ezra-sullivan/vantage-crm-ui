@@ -140,7 +140,7 @@ import type { FormInstance, FormRules } from 'element-plus'
 // 导入需要的图标组件
 import { Message, Lock, Iphone, Key } from '@element-plus/icons-vue'
 // 导入 API 服务，重命名避免冲突
-import { loginByEmail, loginByPhone, sendVerificationCode as sendSmsCode } from '@/api/auth'
+import { loginByEmail, loginByPhone, sendVerificationCode as sendSmsCode } from '@/api/account'
 // 如果需要路由跳转，还需要导入router
 // import { useRouter } from 'vue-router'
 // const router = useRouter()
