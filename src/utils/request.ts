@@ -25,7 +25,7 @@ let isRefreshing = false
 let retryQueue: Array<(token: string) => void> = []
 
 // 在文件顶部添加导入
-import { refreshToken } from '@/api/authz'
+import { refreshToken } from '@/api/account'
 
 // 请求拦截器
 service.interceptors.request.use(
